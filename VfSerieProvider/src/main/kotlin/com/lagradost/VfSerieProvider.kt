@@ -7,12 +7,12 @@ import org.jsoup.Jsoup
 
 // referer = https://vf-serie.org, USERAGENT ALSO REQUIRED
 class VfSerieProvider : MainAPI() {
-    override var mainUrl = "https://vf-serie.org"
-    override var name = "vf-serie.org"
+    override var mainUrl = "https://https://voir.seriestreaming.vip/accueil"
+    override var name = "voir.setreistreaming.vip"
     override var lang = "fr"
 
-    override val hasQuickSearch = false
-    override val hasMainPage = false
+    override val hasQuickSearch = true
+    override val hasMainPage = true
     override val hasChromecastSupport = false
 
     override val supportedTypes = setOf(TvType.TvSeries)
